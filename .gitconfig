@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = Akshay Chiwhane
+	email = achiwhane@gmail.com
+[core]
+	editor = /usr/bin/vim
+	autocrlf = input
